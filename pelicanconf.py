@@ -61,7 +61,7 @@ DEFAULT_PAGINATION = False
 
 # Woo plugins!
 NOTEBOOK_DIR = 'notebooks'
-THEME = 'flex/'
+THEME = 'Flex/'
 #PLUGIN_PATHS = ['pelican-plugins']
 #PLUGINS = ['liquid_tags.notebook']
 
