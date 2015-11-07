@@ -1,11 +1,14 @@
-Title: My first post!
-Slug: my-first-post
-Date: 2015-11-07 11:32:00
-Tags: test1, test2
-Sdklfjslkdfjsldkj Woohoo!
+Title: Introductions
+Category: personal
+Tags: pelican, python, github, jupyter
+date: 2015-11-07 17:53:00
+comments: true
+slug: introductions
 
-First post, kthx.
+Well, this seems to be working. Kinda.
 
-    #!python
-    # here is some python code
-    print ('hello, world')
+I took some inspiration from [Jake VanderPlas' Pythonic Perambulations](http://jakevdp.github.io/) and opted for a similar route: Pelican as the backend blogging machine, github as the host, and (eventually) embedded Jupyter notebooks. Unfortunately, Jake's addition to the Pelican plugins to [allow Jupyter notebooks](https://github.com/getpelican/pelican-plugins/blob/master/liquid_tags/notebook.py) uses CSS that is, shall we say, unfriendly to Pelican themes outside of the Octopress default.
+
+So that part is still incomplete. As are many of the links and some of the plugins. But ultimately, I'm hoping to use this to supplant my current pair of blogs that jointly detail what my plan for this space is: academia, general data science, and other musings.
+
+Stay tuned!

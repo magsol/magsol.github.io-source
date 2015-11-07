@@ -34,12 +34,7 @@ MAIN_MENU = False
 
 # MENUITEMS = (())
 
-# Blogroll
-LINKS = (('about', 'about.html'),
-         ('contact', 'contact.html'),
-         ('&nbsp;', '#'),
-         ('cs@uga', 'http://cs.uga.edu/~squinn'),
-         ('portfolio', 'http://www.magsol.me'),)
+# LINKS = (())
 
 # Social widget
 SOCIAL = (('envelope-o', 'mailto:magsol@gmail.com'),
@@ -62,8 +57,10 @@ DEFAULT_PAGINATION = False
 # Woo plugins!
 NOTEBOOK_DIR = 'notebooks'
 THEME = 'Flex/'
-#PLUGIN_PATHS = ['pelican-plugins']
-#PLUGINS = ['liquid_tags.notebook']
+PLUGIN_PATHS = ['pelican-plugins']
+# PLUGINS = ['liquid_tags.notebook']
+PLUGINS = ['liquid_tags.img', 'liquid_tags.video', 'summary',
+          'liquid_tags.include_code', 'liquid_tags.literal']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
