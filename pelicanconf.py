@@ -21,7 +21,7 @@ PATH = './content'
 STATIC_PATHS = ['downloads', 'images', 'figures', 'notebooks']
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
-COPYRIGHT_YEAR = 2015
+COPYRIGHT_YEAR = 2016
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -55,12 +55,19 @@ DEFAULT_PAGINATION = False
 #     EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
 # Woo plugins!
+# MD_EXTENSIONS = ['figureAltCaption', 'external.figureAltCaption']
 NOTEBOOK_DIR = 'notebooks'
 THEME = 'Flex/'
 PLUGIN_PATHS = ['pelican-plugins']
-# PLUGINS = ['liquid_tags.notebook']
+GIT_FILETIME_FOLLOW = True
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video', 'summary',
-          'liquid_tags.include_code', 'liquid_tags.literal']
+          'liquid_tags.include_code', 'liquid_tags.literal',
+          'filetime_from_git', 'simple_footnotes']
+# PLUGINS = ['liquid_tags.notebook'] -- doesn't like non-Octopress themes
+# PLUGINS = ['figure-ref'] -- seems to hate on Markdown syntax
+# PLUGINS = ['gallery'] -- don't need this just yet
+# PLUGINS = ['tag_cloud'] -- requires heavy theme CSS modification
+
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
