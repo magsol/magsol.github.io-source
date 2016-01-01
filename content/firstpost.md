@@ -1,7 +1,6 @@
 Title: Introductions
 Category: personal
 Tags: pelican, python, github, jupyter
-date: 2015-11-07 17:53:00
 comments: true
 slug: introductions
 
