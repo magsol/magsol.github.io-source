@@ -55,14 +55,14 @@ DEFAULT_PAGINATION = False
 #     EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
 # Woo plugins!
-# MD_EXTENSIONS = ['figureAltCaption', 'external.figureAltCaption']
+MD_EXTENSIONS = ['figureAltCaption']
 NOTEBOOK_DIR = 'notebooks'
 THEME = 'Flex/'
 PLUGIN_PATHS = ['pelican-plugins']
 GIT_FILETIME_FOLLOW = True
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video', 'summary',
           'liquid_tags.include_code', 'liquid_tags.literal',
-          'filetime_from_git', 'simple_footnotes']
+          'filetime_from_git', 'simple_footnotes', 'figure-ref']
 # PLUGINS = ['liquid_tags.notebook'] -- doesn't like non-Octopress themes
 # PLUGINS = ['figure-ref'] -- seems to hate on Markdown syntax
 # PLUGINS = ['gallery'] -- don't need this just yet
