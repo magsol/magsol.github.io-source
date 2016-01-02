@@ -4,6 +4,7 @@ __pycache__/
 output/
 fabfile.py
 _build/
+_nb_header.html
 
 # C extensions
 *.so
