@@ -1,8 +1,8 @@
 Title: Introductions
 Category: personal
 Tags: pelican, python, github, jupyter
-comments: true
-slug: introductions
+Comments: true
+Slug: introductions
 
 Well, this seems to be working. Kinda.
 
