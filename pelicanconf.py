@@ -9,8 +9,8 @@ SITENAME = u'Stochastic Stenography'
 SITETITLE = SITENAME
 SITESUBTITLE = u'Data science, academia, and donuts'
 SITELOGO = u'http://magsol.github.io/images/me.png'
-FAVICON = 'http://magsol.github.io/images/favicon.ico'
-SITEURL = 'http://127.0.0.1:8000'
+FAVICON = u'http://magsol.github.io/images/favicon.ico'
+SITEURL = u'http://127.0.0.1:8000'
 
 # Times and dates.
 TIMEZONE = u'America/New_York'
@@ -47,7 +47,7 @@ DEFAULT_PAGINATION = False
 # Woo plugins!
 PLUGIN_PATHS = ['../plugins/']
 PLUGINS = ['liquid_tags.img', 'liquid_tags.youtube', 'liquid_tags.include_code',
-  'representative_image', 'filetime_from_git']
+  'filetime_from_git']
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
