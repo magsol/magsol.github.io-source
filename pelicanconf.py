@@ -20,7 +20,7 @@ DEFAULT_DATE_FORMAT = '%B %d, %Y, at %H:%M:%S. It was %A.'
 
 PATH = 'content/'
 THEME = '../themes/Flex/'
-STATIC_PATHS = ['downloads', 'images', 'figures', 'notebooks']
+STATIC_PATHS = ['downloads', 'images', 'figures', 'code']
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 COPYRIGHT_YEAR = 2016
@@ -47,7 +47,7 @@ DEFAULT_PAGINATION = False
 # Woo plugins!
 PLUGIN_PATHS = ['../plugins/']
 PLUGINS = ['liquid_tags.img', 'liquid_tags.youtube', 'liquid_tags.include_code',
-  'filetime_from_git']
+  'filetime_from_git', 'render_math']
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
