@@ -8,8 +8,8 @@ AUTHOR = u'Shannon Quinn'
 SITENAME = u'Stochastic Stenography'
 SITETITLE = SITENAME
 SITESUBTITLE = u'Data science, academia, and donuts'
-SITELOGO = u'http://magsol.github.io/images/me.png'
-FAVICON = u'http://magsol.github.io/images/favicon.ico'
+SITELOGO = u'https://magsol.github.io/images/me.png'
+FAVICON = u'https://magsol.github.io/images/favicon.ico'
 SITEURL = u'http://127.0.0.1:8000'
 
 # Times and dates.
