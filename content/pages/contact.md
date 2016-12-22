@@ -7,9 +7,9 @@ Failing those, here's a semi-exhaustive list of how you can get in touch with me
 
 ### By Email
 
- - **[squinn AT cs DOT uga DOT edu](mailto:squinn@cs.uga.edu)** for research correspondence, collaboration requests, or anything UGA or otherwise academic related.
- - **[spq AT uga DOT edu](mailto:spq@uga.edu)** is basically the same as the previous.
- - **[squinn AT apache DOT org](mailto:squinn@apache.org)** for Apache Mahout correspondence or anything open-source related.
+ - **[squinn AT cs DOT uga DOT edu](mailto:squinn@cs.uga.edu)** academic, educational, or research related
+ - **[squinn AT apache DOT org](mailto:squinn@apache.org)** open source development
+ - **[magsol AT gmail DOT com](mailto:magsol@gmail.com)** miscellany
 
 ### On the web
 
