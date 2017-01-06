@@ -23,7 +23,7 @@ THEME = '../themes/Flex/'
 STATIC_PATHS = ['downloads', 'images', 'figures', 'code']
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
-COPYRIGHT_YEAR = 2016
+COPYRIGHT_YEAR = 2017
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
