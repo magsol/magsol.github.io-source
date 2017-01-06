@@ -47,7 +47,7 @@ DEFAULT_PAGINATION = False
 # Woo plugins!
 PLUGIN_PATHS = ['../plugins/']
 PLUGINS = ['liquid_tags.img', 'liquid_tags.youtube', 'liquid_tags.include_code',
-  'filetime_from_git', 'render_math']
+  'filetime_from_git']
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
