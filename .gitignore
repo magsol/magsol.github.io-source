@@ -1,5 +1,6 @@
 # Other annoying things.
 .DS_Store
+drafts
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
