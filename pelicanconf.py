@@ -46,8 +46,17 @@ DEFAULT_PAGINATION = False
 
 # Woo plugins!
 PLUGIN_PATHS = ['../plugins/']
-PLUGINS = ['liquid_tags.img', 'liquid_tags.youtube', 'liquid_tags.include_code',
-  'filetime_from_git', 'embed_tweet']
+PLUGINS = ['liquid_tags.img',
+            'liquid_tags.youtube',
+            'liquid_tags.include_code',
+            #'liquid_tags.notebook',
+            'liquid_tags.gram',
+            'filetime_from_git',
+            'embed_tweet']
+
+# Needed for the liquid_tags.notebook plugin
+NOTEBOOK_DIR = 'notebooks'
+#EXTRA_HEADER = open('_nb_header.html', "r").read()
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
