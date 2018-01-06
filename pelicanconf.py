@@ -41,7 +41,7 @@ PLUGINS = [
     'liquid_tags.include_code',  # including code blocks
     'liquid_tags.literal',
     'liquid_tags.gram', # for embedding instagrams
-    #'filetime_from_git', # auto-get the publish time
+    'filetime_from_git', # auto-get the publish time
     'embed_tweet'  # for embedding tweets
 ]
 IGNORE_FILES = ['.ipynb_checkpoints']
@@ -59,10 +59,11 @@ TWITTER_USERNAME = 'SpectralFilter'
 GITHUB_USERNAME = 'magsol'
 GOOGLE_PLUS_USERNAME = 'ShannonQuinnBBQ'
 LINKEDIN_USERNAME = 'shannonpquinn'
+INSTAGRAM_USERNAME = 'magsolium'
 EMAIL_ADDRESS = 'magsol@gmail.com'
 STACKOVERFLOW_ADDRESS = 'http://stackoverflow.com/users/13604/magsol'
 AUTHOR_WEBSITE = 'http://cs.uga.edu/~squinn'
-AUTHOR_BLOG = 'https://magsol.github.io'
+AUTHOR_BLOG = 'https://wherearethepancakes.wordpress.com'
 AUTHOR_CV = 'https://quinngroup.github.io'
 SHOW_ARCHIVES = True
 SHOW_FEED = False  # Need to address large feeds

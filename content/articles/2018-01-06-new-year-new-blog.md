@@ -1,0 +1,20 @@
+Title: New year, new blog layout
+Category: personal
+Tags: new year, blog
+Comments: true
+Slug: new-year-new-blog-layout
+
+Happy 2018!
+
+I've been wanting to put a fresh coat of paint on things for awhile around here,
+especially since the old Flex template didn't have a really good way of supporting
+embedded Jupyter notebooks without completely upending the CSS (love the theme
+otherwise!).
+
+Taking a page (or really, an entire layout) from [Jake's blog](https://jakevdp.github.io/),
+I can now embed Jupyter notebooks without trashing the whole layout of the site.
+There are some posts I've been wanting to make for awhile that will require a
+considerable amount of code, so I'm excited to be able to dig into them now!
+
+I'll be following up soon with a lengthier resolutions post, but for now I just
+wanted to say "I'm still alive" and roll out the new layout. Happy new year everyone!
