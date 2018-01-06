@@ -3,6 +3,7 @@ Category: personal
 Tags: pelican, python, github, jupyter
 Comments: true
 Slug: introductions
+gittime: false
 Date: 2015-11-07 12:14:02
 
 Well, this seems to be working. Kinda.

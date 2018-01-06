@@ -3,6 +3,7 @@ Category: professional
 Tags: phd, graduate school, research, mentoring, computer science, graduate student
 Comments: true
 Slug: so-you-want-to-conduct-research-with-me
+gittime: false
 Date: 2017-03-16 15:59:21
 
 <center>{% img /images/joker_play_a_game.jpg %}</center>
@@ -15,7 +16,7 @@ No, the specific question I'm addressing here is **how to succeed in graduate re
 
 ### 1: Familiarize yourself with my research interests.
 
-This may seem like a no-brainer, but you'd be surprised how many emails I get from individuals expressing profound interest in working with me, only to see they have **i)** no experience whatsoever in any of my interests (which isn't necessarily a deal-breaker!), and **ii)** don't appear to know what I work on (which *is* a deal-breaker). If you work with me, you're going to do something at the intersection of bioimaging + distributed computing + biosurveillance; something that involves computer vision and machine learning in a public health setting. 
+This may seem like a no-brainer, but you'd be surprised how many emails I get from individuals expressing profound interest in working with me, only to see they have **i)** no experience whatsoever in any of my interests (which isn't necessarily a deal-breaker!), and **ii)** don't appear to know what I work on (which *is* a deal-breaker). If you work with me, you're going to do something at the intersection of bioimaging + distributed computing + biosurveillance; something that involves computer vision and machine learning in a public health setting.
 
 Check out my [Google Scholar](http://scholar.google.com/citations?user=4EjRiycAAAAJ) record, my group's [GitHub repositories](https://github.com/quinngroup), and my [lab website](https://quinngroup.github.io/) to get at least a basic idea of the sort of work I do, and to jog your thinking along the lines of what you might be able to contribute.
 
@@ -38,13 +39,13 @@ This **DOES mean** that, by the end of your time here, I want you to be the expe
 
 Even as you start your project, you may come across roadblocks that I don't have an answer for. That's how research works: we're pushing the limits of our collective knowledge! I may have some intuition from previous problems, and I'll certainly share that, but asking me "What do I do next?" is going to frustrate both of us very, very quickly.
 
-Here's another example: [the levels of data science classes](http://simplystatistics.org/2017/03/16/evo-ds-class/). You don't have to be anywhere above Level 2 when you arrive (maybe you're still working your way through Level 1!), but I expect you to work **through Level 7 by the time you leave.** 
+Here's another example: [the levels of data science classes](http://simplystatistics.org/2017/03/16/evo-ds-class/). You don't have to be anywhere above Level 2 when you arrive (maybe you're still working your way through Level 1!), but I expect you to work **through Level 7 by the time you leave.**
 
 ### If you've made it this far, and are still interested...
 
 ...then I encourage you to reach out to me and express your interest! I have just one final piece of advice:
 
-**Do NOT** send me 
+**Do NOT** send me
 
  1. a form email with a 10-page summary of your accomplishments (as I said, I don't hire for y-intercept, I hire for slope)
  2. an email with misspellings or grammatical errors (recall that I emphasize good scientific communication skills)
@@ -59,4 +60,3 @@ Because if you can handle graduate school...
 <center>{% img /images/grad-school.jpg %}</center>
 
 ...I really do believe you can handle anything.
-

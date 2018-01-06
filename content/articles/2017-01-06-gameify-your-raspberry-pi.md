@@ -3,6 +3,7 @@ Category: personal
 Tags: pi, raspberry pi, retropie, retro, gaming, video games, nvidia, shield, steam
 Comments: true
 Slug: gameify-your-raspberry-pi
+gittime: false
 Date: 2017-01-06 18:47:37
 
 {% img /images/rpi/raspberrypi3.jpg %}

@@ -3,6 +3,7 @@ Category: personal, professional
 Tags: data science, python, computer vision, imaging, machine learning, deep learning, nvidia, gpu, online courses, teaching, education, cat detector, generative adversarial networks, latent subspace, manifolds, bioimaging, grant writing, running
 Comments: true
 Slug: sods-2017-wrap-up
+gittime: false
 Date: 2017-08-15 16:38:18
 
 ## tl;dr
@@ -64,7 +65,7 @@ Definitely want to take another crack at this next summer, though.
 
 ## Conclusion
 
-As stated at the beginning, a mixed bag. I've had some really great momentum with grantwriting this year, far better than any year so far. Teaching has been pretty productive as well (if not exhausting with all the brand-new courses), though the Coursera goal was a bust. 
+As stated at the beginning, a mixed bag. I've had some really great momentum with grantwriting this year, far better than any year so far. Teaching has been pretty productive as well (if not exhausting with all the brand-new courses), though the Coursera goal was a bust.
 
 Still, that may have something to do with a completely inadvertent achievement: my running this year has come roaring back. My last five weeks have been particularly awesome:
 

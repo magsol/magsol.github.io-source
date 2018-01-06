@@ -3,6 +3,7 @@ Category: personal
 Tags: howto, python, strava, running, oauth, tweepy, twitter, pybot
 Comments: true
 Slug: a-twitterbot-for-posting-weekly-running-stats
+gittime: false
 Date: 2016-05-16 15:09:59
 
 {% img /images/stravatwitter.png %}
@@ -153,7 +154,7 @@ We've referenced an internal method we're calling `_compute_interval`, as of yet
 
         # If we get to this point, it means the index of the current day--
         # as in, right when the code gets HERE--doesn't match the index of the
-        # day we've said we want to perform this update. So we need to do a 
+        # day we've said we want to perform this update. So we need to do a
         # little bit of work to compute that date.
 
         if now > target:
