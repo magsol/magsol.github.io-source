@@ -1,5 +1,34 @@
-# Stochastic Stenography
+# Source for Stochastic Stenography
 
-Pelican-powered Jupyter-based super-fun-times blog.
+This repository contains the source for https://magsol.github.io.
 
-This is the configuration for the blog. It uses the [Flex](https://github.com/alexandrevicenzi/Flex) template for the general layout, and a series of [Pelican plugins](https://github.com/getpelican/pelican-plugins) as listed in the `pelicanconf.py` file. The actual content itself is hosted at the [magsol.github.io](https://github.com/magsol/magsol.github.io) repository and published at [this website](http://magsol.github.io).
+## Building the Blog
+
+Clone the repository & make sure submodules are included
+
+```
+$ git clone https://github.com/jakevdp/jakevdp.github.io-source.git
+$ git submodule update --init --recursive
+```
+
+Install the required packages:
+
+```
+$ conda create -n pelican-blog python=3.5 jupyter notebook
+$ source activate pelican-blog
+$ pip install pelican Markdown ghp-import
+```
+
+Build the html and serve locally:
+
+```
+$ make html
+$ make serve
+$ open http://localhost:8000
+```
+
+Deploy to github pages
+
+```
+$ make publish-to-github
+```

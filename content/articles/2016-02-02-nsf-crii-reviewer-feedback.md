@@ -3,6 +3,7 @@ Category: professional
 Tags: academia, grants, reviewer feedback, rejection
 Comments: true
 Slug: reviewing-a-reviewed-grants-reviews
+Date: 2016-02-02 10:18:34
 
 Rejection in any context sucks. As a new faculty trying to prove himself (to himself, but most importantly, to his tenure committee), I particularly hate rejections in the context of grant proposals and paper submissions. The "nice" thing about the latter rejection is that it's marginally easier to resubmit a manuscript elsewhere; there are more journals and conferences than ever, especially in computer science.
 

@@ -3,6 +3,7 @@ Category: personal, professional
 Tags: data science, python, computer vision, imaging, machine learning, deep learning, nvidia, gpu, online courses, teaching, education, cat detector, generative adversarial networks, latent subspace, manifolds, bioimaging, grant writing, running
 Comments: true
 Slug: sods-2017-wrap-up
+Date: 2017-08-15 16:38:18
 
 ## tl;dr
 

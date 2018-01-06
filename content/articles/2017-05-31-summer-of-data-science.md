@@ -3,6 +3,7 @@ Category: personal, professional
 Tags: data science, python, computer vision, imaging, machine learning, deep learning, nvidia, gpu, online courses, teaching, education, cat detector, generative adversarial networks, latent subspace, manifolds, bioimaging
 Comments: true
 Slug: summer-of-data-science-2017
+Date: 2017-05-31 23:03:42
 
 <center>{% img /images/carpelibrum.png %}</center>
 

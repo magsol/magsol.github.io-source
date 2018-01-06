@@ -1,29 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-import os
 
-AUTHOR = u'Shannon Quinn'
-
-SITENAME = u'Stochastic Stenography'
-SITETITLE = SITENAME
+AUTHOR = 'Shannon Quinn'
+SITENAME = 'Stochastic Stenography'
 SITESUBTITLE = u'Data science, academia, and donuts'
-SITELOGO = u'https://magsol.github.io/images/me.png'
-FAVICON = u'https://magsol.github.io/images/favicon.ico'
-SITEURL = u'http://127.0.0.1:8000'
-
-# Times and dates.
-TIMEZONE = u'America/New_York'
-DEFAULT_LANG = u'en'
-OG_LOCALE = u'en_US'
-DEFAULT_DATE_FORMAT = '%B %d, %Y, at %H:%M:%S. It was %A.'
-
-PATH = 'content/'
-THEME = '../themes/Flex/'
-STATIC_PATHS = ['downloads', 'images', 'figures', 'code']
-ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
-ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
-COPYRIGHT_YEAR = 2017
+SITEURL = ''
+PATH = 'content'
+TIMEZONE = 'America/New_York'
+DEFAULT_LANG = 'en_US'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -32,31 +17,61 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-MAIN_MENU = False
+# Set the article URL
+ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
-# Social widget
-SOCIAL = (('envelope-o', 'mailto:magsol@gmail.com'),
-          ('twitter', 'https://twitter.com/SpectralFilter'),
-          ('github', 'https://github.com/magsol'),
-          ('stack-overflow', 'http://stackoverflow.com/users/13604/magsol'),
-          ('google', 'https://plus.google.com/+ShannonQuinnBBQ/'),
-          ('linkedin', 'http://www.linkedin.com/in/shannonpquinn'))
-
-DEFAULT_PAGINATION = False
-
-# Woo plugins!
-PLUGIN_PATHS = ['../plugins/']
-PLUGINS = ['liquid_tags.img',
-            'liquid_tags.youtube',
-            'liquid_tags.include_code',
-            #'liquid_tags.notebook',
-            'liquid_tags.gram',
-            'filetime_from_git',
-            'embed_tweet']
-
-# Needed for the liquid_tags.notebook plugin
-NOTEBOOK_DIR = 'notebooks'
-#EXTRA_HEADER = open('_nb_header.html', "r").read()
+DEFAULT_DATE_FORMAT = 'Posted on %B %-d in the year %Y, at %-H:%M%p. It was %A.'
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+#RELATIVE_URLS = True
+
+#MARKUP = ('md', 'ipynb')
+#PLUGINS = ['ipynb.markup']
+
+MARKUP = ['md']
+PLUGIN_PATHS = ['../plugins']
+PLUGINS = [
+    'summary',       # auto-summarizing articles
+    'feed_summary',  # use summaries for RSS, not full articles
+    'pelican-ipynb.liquid',  # for embedding notebooks
+    'liquid_tags.img',  # embedding images
+    'liquid_tags.video',  # embedding videos
+    'liquid_tags.include_code',  # including code blocks
+    'liquid_tags.literal',
+    'liquid_tags.gram', # for embedding instagrams
+    #'filetime_from_git', # auto-get the publish time
+    'embed_tweet'  # for embedding tweets
+]
+IGNORE_FILES = ['.ipynb_checkpoints']
+
+# for liquid tags
+CODE_DIR = 'downloads/code'
+NOTEBOOK_DIR = 'downloads/notebooks'
+
+# THEME SETTINGS
+THEME = './theme/'
+
+ABOUT_PAGE = '/pages/about.html'
+# CONTACT_PAGE = '/pages/contact.html'
+TWITTER_USERNAME = 'SpectralFilter'
+GITHUB_USERNAME = 'magsol'
+GOOGLE_PLUS_USERNAME = 'ShannonQuinnBBQ'
+LINKEDIN_USERNAME = 'shannonpquinn'
+EMAIL_ADDRESS = 'magsol@gmail.com'
+STACKOVERFLOW_ADDRESS = 'http://stackoverflow.com/users/13604/magsol'
+AUTHOR_WEBSITE = 'http://cs.uga.edu/~squinn'
+AUTHOR_BLOG = 'https://magsol.github.io'
+AUTHOR_CV = 'https://quinngroup.github.io'
+SHOW_ARCHIVES = True
+SHOW_FEED = False  # Need to address large feeds
+
+ENABLE_MATHJAX = True
+
+STATIC_PATHS = ['images', 'figures', 'videos', 'downloads', 'favicon.ico']
+
+# Footer info
+
+LICENSE_URL = "https://github.com/magsol/magsol.github.io-source/blob/master/LICENSE"
+LICENSE = "MIT"

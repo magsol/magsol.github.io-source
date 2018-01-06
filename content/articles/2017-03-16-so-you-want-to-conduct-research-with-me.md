@@ -3,6 +3,7 @@ Category: professional
 Tags: phd, graduate school, research, mentoring, computer science, graduate student
 Comments: true
 Slug: so-you-want-to-conduct-research-with-me
+Date: 2017-03-16 15:59:21
 
 <center>{% img /images/joker_play_a_game.jpg %}</center>
 

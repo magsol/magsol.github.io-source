@@ -3,6 +3,7 @@ Category: personal
 Tags: howto, python, strava, running, oauth, tweepy, twitter, pybot
 Comments: true
 Slug: a-twitterbot-for-posting-weekly-running-stats
+Date: 2016-05-16 15:09:59
 
 {% img /images/stravatwitter.png %}
 
