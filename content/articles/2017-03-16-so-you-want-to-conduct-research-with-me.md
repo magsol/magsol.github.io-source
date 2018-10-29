@@ -43,9 +43,11 @@ Here's another example: [the levels of data science classes](http://simplystatis
 
 ### If you've made it this far, and are still interested...
 
-...then I encourage you to reach out to me and express your interest! I have just one final piece of advice:
+...then I encourage you to reach out to me and express your interest! I have just a few final pieces of advice:
 
-**Do NOT** send me
+First, [read this brief Twitter thread](https://twitter.com/DavidBindel/status/1054859324143616000).
+
+Next, **do NOT** send me
 
  1. a form email with a 10-page summary of your accomplishments (as I said, I don't hire for y-intercept, I hire for slope)
  2. an email with misspellings or grammatical errors (recall that I emphasize good scientific communication skills)
@@ -53,7 +55,7 @@ Here's another example: [the levels of data science classes](http://simplystatis
 
 I won't respond.
 
-Instead, [write an email](https://magsol.github.io/pages/contact.html) that's 3-5 sentences at most, **with a specific mention of the work you find interesting and want to pursue further**. For extra credit, mention some kind of improvement or extension to the work that you came up with on your own. This tells me a lot of things all at once, most important of which is that you're serious about wanting to work with me.
+Finally, [write an email](https://magsol.github.io/pages/contact.html) that's 3-5 sentences at most, **with a specific mention of the work you find interesting and want to pursue further**. For extra credit, mention some kind of improvement or extension to the work that you came up with on your own. This tells me a lot of things all at once, most important of which is that you're serious about wanting to work with me.
 
 Because if you can handle graduate school...
 
