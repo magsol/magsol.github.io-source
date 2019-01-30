@@ -45,7 +45,7 @@ Here's another example: [the levels of data science classes](http://simplystatis
 
 ...then I encourage you to reach out to me and express your interest! I have just a few final pieces of advice:
 
-First, [read this brief Twitter thread](https://twitter.com/DavidBindel/status/1054859324143616000).
+First, [read this brief Twitter thread](https://twitter.com/DavidBindel/status/1054859324143616000) and [this brief Twitter thread as well](https://twitter.com/mickeykats/status/1074874785795112960).
 
 Next, **do NOT** send me
 
