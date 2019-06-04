@@ -5,11 +5,11 @@ Comments: true
 Slug: quinnwitz-in-ireland
 
 {% img /images/ireland/gapofdunloe.jpg %}
-<p style="text-align: center;">([click to embiggen](images/ireland/gapofdunloe_orig.jpg))</p>
+<p style="text-align: center;">([click to embiggen]({attach}/images/ireland/gapofdunloe_orig.jpg))</p>
 
 The Lady and I just returned from a 12-day trip to Ireland (with a stop at the
 very start in Kent, England, to visit some [dear friends](https://twitter.com/kmorrell04)
-and their [6-month old](images/ireland/kent.jpg) twins!).
+and their [6-month old]({attach}/images/ireland/kent.jpg) twins!).
 
 I can't begin to describe how incredible the trip was. It was one of those dreams
 you realize at some point you've been discussing with your significant other for
