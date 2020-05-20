@@ -3,6 +3,7 @@ Category: personal
 Tags: travel, ireland, #quinnwitzabroad, heritage, dublin, killarney, galway, ring of kerry, cliffs of moher, cliffs of insanity, wicklow
 Comments: true
 Slug: quinnwitz-in-ireland
+Date: 2019-06-03 19:24:00
 
 {% img /images/ireland/gapofdunloe.jpg %}
 <p style="text-align: center;">([click to embiggen]({attach}/images/ireland/gapofdunloe_orig.jpg))</p>

@@ -3,6 +3,8 @@ Category: personal
 Tags: new year, blog
 Comments: true
 Slug: new-year-new-blog-layout
+gittime: false
+Date: 2018-01-06 17:47:00
 
 Happy 2018!
 

@@ -3,6 +3,7 @@ Category: personal
 Tags: gaming, starcraft, starcraft ii, legacy of the void, protoss, xel'naga, blizzard
 Comments: true
 Slug: starcraft-ii-questions
+Date: 2019-01-31 15:26:00
 
 {% img /images/sc2_questions/do_you_wanna_play_sc2.jpeg %}
 

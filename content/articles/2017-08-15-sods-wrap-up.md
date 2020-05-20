@@ -10,7 +10,7 @@ Date: 2017-08-15 16:38:18
 
 Mixed bag.
 
-@BecomingDataSci/status/895856449687080960
+t@BecomingDataSci/status/895856449687080960
 
 ## The Long Version
 

@@ -1,4 +1,5 @@
 # Other annoying things.
+.gitignore
 .DS_Store
 drafts
 

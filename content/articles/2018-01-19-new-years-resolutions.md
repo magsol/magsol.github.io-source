@@ -3,6 +3,8 @@ Category: personal, professional
 Tags: new year, blog, writing, side projects, research, habits
 Comments: true
 Slug: new-years-resolutions-2018
+gittime: false
+Date: 2018-01-21 14:28:00
 
 A solid three weeks late on the new year's resolutions, but still a marked improvement over last year.
 

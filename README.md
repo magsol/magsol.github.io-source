@@ -14,9 +14,26 @@ $ git submodule update --init --recursive
 Install the required packages:
 
 ```
-$ conda create -n pelican-blog python=3.5 jupyter notebook
-$ source activate pelican-blog
-$ pip install pelican Markdown ghp-import
+$ conda create -n pelican python=3.7 jupyter notebook
+$ source activate pelican
+$ conda install -c conda-forge pelican Markdown ghp-import
+```
+
+Install the optional packages for the activated plugins:
+
+```
+# For "filetime_from_git" https://github.com/getpelican/pelican-plugins/tree/master/filetime_from_git
+$ conda install -c conda-forge gitpython
+```
+```
+# For "summary" https://github.com/getpelican/pelican-plugins/tree/master/summary
+$ conda install -c conda-forge beautifulsoup4
+```
+For the extension embedding tweets: https://github.com/lqez/pelican-embed-tweet
+```
+$ wget https://github.com/lqez/pelican-embed-tweet/raw/master/embed_tweet.py
+$ mv embed_tweet.py ../plugins/
+# Edit the pelicanconf.py file accordingly.
 ```
 
 Build the html and serve locally:
@@ -30,7 +47,7 @@ $ open http://localhost:8000
 Deploy to github pages
 
 ```
-$ make publish-to-github
+$ make github
 ```
 
 ## Attribution

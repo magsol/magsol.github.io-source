@@ -3,6 +3,8 @@ Category: personal
 Tags: gaming, jedi, star wars, first person shooter, fps, online communities, power of thee
 Comments: true
 Slug: jedi-outcast-echoes-of-a-bygone-gaming-era
+gittime: false
+Date: 2018-04-27 14:30:00
 
 {% img /images/jk2/lolrob.jpg %}
 
