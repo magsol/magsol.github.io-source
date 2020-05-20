@@ -42,7 +42,7 @@ PLUGINS = [
         'liquid_tags.youtube',      # youtube embeddings
         #'liquid_tags.literal',
         'liquid_tags.gram',         # for embedding instagram posts
-        #'filetime_from_git',        # auto-get the publish time from git commit
+        'filetime_from_git',        # auto-get the publish time from git commit
         'embed_tweet'               # embedding tweets
 ]
 IGNORE_FILES = ['.ipynb_checkpoints']
