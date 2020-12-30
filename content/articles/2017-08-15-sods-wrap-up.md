@@ -81,6 +81,6 @@ I've also started noticing that I'm actually getting faster, which is something 
 
 Which led me--perhaps in a half-crazed moment of weakness--to put the following goals on the Athens Fleet Feet board several weeks ago at their four-year anniversary celebration:
 
-{% gram BW8pe2PA_5B %}
+{% img /images/sods2017wrapup/goals.png %}
 
 Running is my release. Without it, nothing else I do is going to be very good. When running is going well, other things are going well, and vice versa. So here's hoping I've set myself on a good track!

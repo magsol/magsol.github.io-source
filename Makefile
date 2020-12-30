@@ -9,7 +9,7 @@ CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 GITHUB_PAGES_BRANCH=master
-GITHUB_PAGES_REMOTE=git@github.com:magsol/magsol.github.io
+GITHUB_PAGES_REMOTE=git@github.com:magsol/magsol.github.io.git
 
 GIT_COMMIT_HASH = $(shell git rev-parse HEAD)
 
@@ -76,7 +76,7 @@ endif
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
-github: publish
+publish-to-github: publish
 	ghp-import -n -m "Generate Pelican site from $(GIT_COMMIT_HASH)" -b blog-build $(OUTPUTDIR) 
 	git push $(GITHUB_PAGES_REMOTE) blog-build:$(GITHUB_PAGES_BRANCH)
 
