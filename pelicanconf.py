@@ -30,21 +30,31 @@ THEME = './theme/'
 LICENSE_URL = 'https://github.com/magsol/magsol.github.io-source/blob/master/LICENSE'
 LICENSE = 'MIT'
 
+# Plugins.
+# pip install pelican-jupyter
+##  https://github.com/danielfrg/pelican-jupyter 
+# pip install pelican-liquid-tags
+##  https://github.com/pelican-plugins/liquid-tags
+##  https://github.com/lqez/pelican-embed-tweet
+
 # Other non-default settings.
-MARKUP = ['md']
+MARKUP = ['md',]
 PLUGIN_PATHS = ['../plugins']
+
+from pelican.plugins import liquid_tags
 PLUGINS = [
-        'summary',                  # auto-summarizing articles
-        'ipynb.liquid',             # for embedding notebooks
-        'liquid_tags.img',          # embedding images
-        'liquid_tags.video',        # embedding videos
-        'liquid_tags.include_code', # including code blocks
-        'liquid_tags.youtube',      # youtube embeddings
-        #'liquid_tags.literal',
-        'liquid_tags.gram',         # for embedding instagram posts
+        liquid_tags,                # regular ol' liquid tags
         'filetime_from_git',        # auto-get the publish time from git commit
-        'embed_tweet'               # embedding tweets
+        'pelican.plugins.embed_tweet'               # embedding tweets
 ]
+
+LIQUID_TAGS = ["img", "include_code", "gram", "video", "youtube", "notebook"]
+
+# Added given this hotfix: https://github.com/danielfrg/pelican-jupyter/issues/126#issuecomment-745372454
+LIQUID_CONFIGS = (("IPYNB_FIX_CSS", "False", ""), 
+                  ("IPYNB_SKIP_CSS", "False", ""), 
+                  ("IPYNB_EXPORT_TEMPLATE", "base", ""),)
+
 IGNORE_FILES = ['.ipynb_checkpoints']
 
 # For liquid tags extension.
@@ -59,7 +69,6 @@ LINKEDIN_USERNAME = 'shannonpquinn'
 INSTAGRAM_USERNAME = 'magsolium'
 EMAIL_ADDRESS = 'magsol@gmail.com'
 STACKOVERFLOW_ADDRESS = 'http://stackoverflow.com/users/13604/magsol'
-#AUTHOR_WEBSITE = 'http://cobweb.cs.uga.edu/~squinn'
 AUTHOR_BLOG = 'https://wherearethepancakes.wordpress.com'
 AUTHOR_CV = 'https://quinngroup.github.io'
 SHOW_ARCHIVES = True
@@ -67,7 +76,7 @@ SHOW_FEED = False
 
 ENABLE_MATHJAX = True
 
-STATIC_PATHS = ['images', 'figures', 'videos', 'downloads', 'favicon.ico']
+STATIC_PATHS = ['images', 'videos', 'downloads', 'favicon.ico']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
