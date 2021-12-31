@@ -19,7 +19,7 @@ FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 #FEED_USE_SUMMARY = True # from the feed_summary plugin
 
-#DELETE_OUTPUT_DIRECTORY = True
+DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 

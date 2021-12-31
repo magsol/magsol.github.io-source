@@ -6,7 +6,7 @@ Authors: Shannon Quinn
 Slug: back-in-action
 Date: 2021-12-30 16:25:00
 
-{% img https://images.app.goo.gl/E95PpfDG6K5kSJDV8 %}
+{% img https://c.tenor.com/ZFc20z8DItkAAAAd/facepalm-really.gif %}
 
 It's been a day/week/month/year/decade, this 2021.
 
