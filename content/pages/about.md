@@ -5,7 +5,7 @@ Template: about
 <img src="/images/me.png" align="left" width="175" style="margin-right:20px; border-radius:50%;"/>
 So, this is a thing I made.
 
-My name is Shannon Quinn. I'm an assistant professor in the [Computer Science](http://cs.uga.edu/~squinn) and [Cellular Biology](http://cellbio.uga.edu/directory/shannon-quinn) departments
+My name is Shannon Quinn. I'm an associate professor in the [Computer Science](http://cs.uga.edu/~squinn) and [Cellular Biology](http://cellbio.uga.edu/directory/shannon-quinn) departments
 at the University of Georgia. Which is ironic at some level, considering my
 undergraduate degree in Computer Science came from Georgia Tech ([GO JACKETS](https://www.youtube.com/watch?v=ygxDs_zcayo)).
 

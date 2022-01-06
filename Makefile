@@ -78,7 +78,7 @@ publish:
 
 publish-to-github: publish
 	ghp-import -n -m "Generate Pelican site from $(GIT_COMMIT_HASH)" -b blog-build $(OUTPUTDIR) 
-	git push $(GITHUB_PAGES_REMOTE) blog-build:$(GITHUB_PAGES_BRANCH)
+	git push -f $(GITHUB_PAGES_REMOTE) blog-build:$(GITHUB_PAGES_BRANCH)
 
 
 .PHONY: html help clean regenerate serve serve-global devserver publish github
