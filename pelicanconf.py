@@ -44,7 +44,7 @@ PLUGIN_PATHS = ['../plugins']
 from pelican.plugins import liquid_tags
 PLUGINS = [
         liquid_tags,                # regular ol' liquid tags
-        'filetime_from_git',        # auto-get the publish time from git commit
+        #'filetime_from_git',        # auto-get the publish time from git commit
         'pelican.plugins.embed_tweet'               # embedding tweets
 ]
 
