@@ -17,6 +17,7 @@ Over a year ago, as intermittent lockdowns dragged on and overall job satisfacti
 I posted about this a few times on my instagram: first when [I'd assembled the Pi cluster](https://www.instagram.com/p/CRJozGTrCAW/), and again when I'd [put together a Network Attached Storage (NAS)](https://www.instagram.com/p/CRu5Pm_rv9o/) with 20TB to do my bidding.
 
 Since then, things got busy, but thanks to a two-week staycation in mid-late May of this year, I've made significant strides:
+
  - The NAS is still doing its thing, though now it serves as yet another backup of all my research data. Can't be too paranoid.
  - The Pi cluster underwent some major plastic surgery. Turns out, just stacking a bunch of Pis and leaving them around your office isn't a great setup when toddler wants to *smack the shit out of them*.
  - I finally put together and deployed my first attempt at an outdoor wildlife camera. Still a ton of work to do, but initial tests have been wildly successful.
