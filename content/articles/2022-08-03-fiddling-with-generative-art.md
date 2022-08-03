@@ -47,6 +47,26 @@ One final bit I tried before my trial ran out was a completely different directi
 
 I see a lot of super awesome art being generated from very terse prompts, so I was trying to capture that a little bit here (as opposed to the downright locquacious landscape prompts above).
 
+Some of the earlier images I created had more to do with my family. This first one was created shortly after my wife left her previous job to pursue her longtime dream of being a full-time fiction writer (it was seriously one of the first things I ever learned about her all those years ago): I was inspired to see if the model could capture something about what that looked like, in my head at least.
+
+{% img /images/ai-art/writer.png %}<br />
+*Generated with the text: `a writer working at her computer surrounded by a world of her own creation`*
+
+And I really love this next one, as it evokes less of the specific act of writing and more of how it's about *creating*.
+
+{% img /images/ai-art/creator.png %}<br />
+*Generated with the text: `writer standing on the boundary between worlds, the world she lives in and the world she creates`*
+
+We've also been huge fans of Zelda for quite awhile (which [longtime readers already know](https://magsol.github.io/tag/zelda.html)), and not too long ago I commissioned a fan account to remake a family photo as if it were in the Zelda universe. 
+
+{% img /images/ai-art/commission.png %}<br />
+*Quite the handsome family, doncha think?*
+
+So I played with that idea a bit, and while the results weren't great--I get the feeling the generator has a harder time dealing with *very specific real-world concepts*, as opposed to more general categories of things--I did get this pretty cute rendering of what is most definitely a Hyrulean family.
+
+{% img /images/ai-art/zelda.png %}<br />
+*Generated with the text: `zelda champions from breath of the wild, family, 1985, highres`*
+
 It's fun to tinker with. In all honesty I'll probably keep playing with it here and there as the mood strikes; if you want to follow along, [there's a public feed of all the pictures I generate here](https://www.midjourney.com/app/users/730084120558043179/) (note: it's "public" in that you have to create a free account to see it), since there's no way I'm going to shell out the $ required to make my images private.
 
 ### Legal Disclaimer
