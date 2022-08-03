@@ -1,6 +1,6 @@
 Title: Fiddling with generative art models
 Category: personal, professional
-Tags: midjourney, ai, generative modeling, dall-e, text-to-images, deep learning, art, sadly proprietary, when will these models be open sourced
+Tags: midjourney, ai, generative modeling, dall-e, text-to-images, deep learning, art, landscapes, starscapes, raspberry pi, writer, creating, sadly proprietary, when will these models be open sourced, legal disclaimer, zelda, family, ai is a human endeavor
 Comments: true
 Slug: fiddling-with-generative-art
 Date: 2022-08-03 11:54:00
